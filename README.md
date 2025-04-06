@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Expense Tracker Application is a full-stack web application designed to help users manage their personal finances. It allows users to add, update, delete, and view expenses, as well as get summaries of their spending habits. The application is built with a Java Spring Boot backend and an Angular frontend, and it is deployed on AWS Elastic Beanstalk with a MySQL database hosted on Amazon RDS.
+The Expense Tracker Application is a full-stack web application designed to help users manage their personal finances. It allows users to add, update, delete, and view expenses, as well as get summaries of their spending habits. The application is built with a Java Spring Boot backend and an Angular frontend, and a MySQL database.
 
 ## Features
 
@@ -10,8 +10,6 @@ The Expense Tracker Application is a full-stack web application designed to help
   - Add, update, and delete expenses.
   - View a list of all expenses.
 
--  
-- 
 ## Technical Stack
 
 - **Backend:** Java Spring Boot
