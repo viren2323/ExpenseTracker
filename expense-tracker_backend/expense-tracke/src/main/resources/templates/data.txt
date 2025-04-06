@@ -1,0 +1,16 @@
+ CREATE DATABASE expensetracker;
+ USE expensetracker;
+CREATE TABLE expense (
+         id BIGINT AUTO_INCREMENT PRIMARY KEY,
+        description VARCHAR(255) NOT NULL,
+        amount DOUBLE NOT NULL,
+        date DATE NOT NULL,
+         category VARCHAR(255)
+     );
+
+INSERT INTO expense (description, amount, date, category) VALUES
+     ('Groceries', 150.00, '2023-10-01', 'Food'),
+     ('Electricity Bill', 75.00, '2023-10-05', 'Utilities'),
+     ('Internet Bill', 50.00, '2023-10-10', 'Utilities');
+
+select * from expense;
